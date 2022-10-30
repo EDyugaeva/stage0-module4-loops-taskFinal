@@ -7,31 +7,6 @@ public class Pyramid {
             int temp2 = cathetusLength + i;
 
             for (int j = 1; j < cathetusLength * 2; j++) {
-//                if (j == cathetusLength ) {
-//                    System.out.print(j - cathetusLength + 1);
-//                }
-//                else if (j == cathetusLength - 1 || j == cathetusLength + 1) {
-//                    System.out.print(cathetusLength - 3);
-//                }
-//                else if (j == cathetusLength - 2 || j == cathetusLength + 2) {
-//                    System.out.print(cathetusLength - 2);
-//                }
-//                else if (j == cathetusLength - 3 || j == cathetusLength + 3) {
-//                    System.out.print(cathetusLength - 1);
-//                }else if (j == cathetusLength - 4 || j == cathetusLength + 4) {
-//                    System.out.print(cathetusLength);
-//                }
-//                else {
-//                    System.out.print("*");
-//                }
-
-//                if (j == cathetusLength) {
-//                    System.out.print("1");
-//                } else if (i == 2 && (j == cathetusLength - 1 || j == cathetusLength + 1)) {
-//                    System.out.print("2");
-//                } else if (i == 3 && (j == cathetusLength - 2 || j == cathetusLength + 2)) {
-//                    System.out.print("3");
-
                 if (j > temp && j <= cathetusLength) {
                     System.out.print(cathetusLength - j + 1);
                 } else if (j >= cathetusLength && j < temp2) {
